@@ -12,7 +12,6 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-
     color: white;
     padding: 2px;
 
@@ -22,6 +21,7 @@ li {
 width: 100%;
 text-align:center;
 padding: 5px;
+color: white;
 }
  
 li:hover{
