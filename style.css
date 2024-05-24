@@ -12,7 +12,8 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    color: rgb(224, 199, 165);
+
+    color: grey;
     padding: 2px;
 
 }
@@ -101,7 +102,7 @@ padding: 30px;
   .about_sub p{
     position: absolute;
     height: 500px;
-    width: 600px;
+    width: 575px;
     margin: 5px;
     padding: 10px;
     cursor: pointer;
@@ -305,3 +306,4 @@ fieldset {
 legend{
     font-size: 25px;
 }
+
