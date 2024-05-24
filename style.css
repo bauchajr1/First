@@ -4,7 +4,7 @@
 }
 body{
   
-    background-color: grey;
+background: rgb(46, 46, 46);
 
 }
 
@@ -12,25 +12,29 @@ nav{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 2px;
 
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
 }
 
 li {
 width: 100%;
 text-align:center;
-padding: 5px;
-color: white;
+padding: 7px;
+color: rgb(255, 255, 255);
+margin-top: 5px;
 }
  
 li:hover{
-background-color: rgb(245, 208, 153);
+box-shadow: 0 1px 7px 1px white;
 border-width: 2px;
 border-radius: 5px;
 cursor: pointer;
-color: white;
-
 }
 .container{
 width: 100%;
@@ -72,7 +76,7 @@ padding: 30px;
     height: 100%;
     position:absolute;
     border-radius: 20px;
-    box-shadow: 0 10px 20px 3px;
+    box-shadow: 0 1px 7px 3px;
    }
 
    .about{
@@ -220,8 +224,12 @@ width: 200px;
     font-family: Chakra Petch;
     box-shadow: 0 10px 20px 3px;
     transition: 0.099s;
-    height:370px;
+    height:fit-content;
     cursor: pointer;
+}
+
+.blog2 h2{
+    margin-top: 7px;
 }
 
 .blog2{
@@ -239,7 +247,12 @@ width: 200px;
     cursor: pointer;
 }
 
+.blog3 h2{
+    margin-top:55px;
+}
+
 .contact-section{
+    margin-top: 60px;
     height: 750px;
     padding: 10px;
     position: relative;
@@ -273,7 +286,12 @@ width: 200px;
 .form{
     padding: 10px;
     position: absolute;
-    right: 230px;
+    right: 220px;
+    margin-top: 25px;
+}
+
+form{
+    right: 200px;
 }
 
 input:hover{
