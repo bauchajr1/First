@@ -222,7 +222,7 @@ width: 200px;
     background-color: hsl(58, 5, 50%);
     border-radius: 20px;
     font-family: Chakra Petch;
-    box-shadow: 0 10px 20px 3px;
+    box-shadow: 0 1px 7px 3px;
     transition: 0.099s;
     height:fit-content;
     cursor: pointer;
