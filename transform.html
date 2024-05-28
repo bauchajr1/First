@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+ transition: 10s;
+}
+    .demo, .demo1{
+        height: 350px;
+        width: 350px;
+    }
+    .demo{
+        background: cyan;
+    }
+    .demo1{
+        background: green;
+    }
+
+    .demo:hover{
+        animation-name: my_animation;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes my_animation {
+     from{
+        background-color:gold;
+     }
+     25%{
+        background-color: aqua;
+     }
+     50%{
+        background: orange;
+     }
+     75%{
+        transform: scale(0.001);
+     }
+     80%{
+        background:cyan;
+        border-radius: 100%;
+        
+     }
+     100%{
+        transform:translate(250px, 400px) rotate(1000000000deg) scale(1); 
+     }
+    }
+
+    .demo1{
+        animation-name: my_animation;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+</style>
+<body>
+    
+    <div class="demo"></div>
+    <div class="demo1"></div>
+    
+</body>
+</html>
