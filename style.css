@@ -337,7 +337,8 @@ body{
 }
 
     .container{
-        
+   position: relative;
+   right: 415px;
     }
 
     .about_sub p{
