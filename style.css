@@ -365,6 +365,14 @@ body{
     .blogtext .p:hover{
      font-size: 10px;
     }
+
+    .gallery_container .gallery-item img{
+        margin-left:180px ;
+    }
+
+    .blog-text .author{
+        margin-top: 100px;
+    }
 }
 
 
